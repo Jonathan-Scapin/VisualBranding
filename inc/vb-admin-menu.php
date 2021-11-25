@@ -29,19 +29,6 @@ function visualBranding_admin_page_contents() {
                 submit_button();
                 ?>
             </form>
-
-        <div>
-            <?php echo "color 1 : " . get_option( 'color_1' ); ?>
-            <br>
-            <?php echo "color 2 : " . get_option( 'color_2' ); ?>
-            <br>
-            <?php echo "color 3 : " . get_option( 'color_3' ); ?>
-            <br>
-            <?php echo "color 4 : " . get_option( 'color_4' ); ?>
-            <br>
-            <?php echo "color 5 : " . get_option( 'color_5' ); ?>
-
-        </div>
         </div>
     <?php
 }
