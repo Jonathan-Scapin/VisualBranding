@@ -1,0 +1,53 @@
+.wrap {
+    margin: 20px 20px 0 2px;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: white;
+}
+.wrap h1 {
+    text-align: center;
+}
+.wrap form h2, .wrap form p {
+    margin-left: 50px;
+}
+.colorBlock {
+    display: flex;
+    align-items: center;
+}
+
+.colorBlock input, .fontBlock input {
+    height: 40px;
+}
+
+.colorView {
+    border: 1px solid #8c8f94;
+    border-radius: 5px;
+    width: 50px;
+    height: 38px;
+    margin-left: 8px;
+}
+
+.form-table tr {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.form-table th {
+    border: 1px solid #8c8f94;
+    border-radius: 5px;
+    width: 70px;
+    height: 38px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2c3338;
+}
+
+.form-table td {
+    margin: 0;
+}
+.wrap p.submit {
+    text-align: center;
+}
